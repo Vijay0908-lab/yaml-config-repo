@@ -1,0 +1,10 @@
+echo "server:
+  port: 8080
+  environment: production
+  enabled: true
+tags:
+  - web
+  - frontend" > main.yaml
+git add main.yaml
+git commit -m "Add main.yaml"
+git push
